@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".InfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/info_cardview_margin"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/info_linear_padding"
+                    android:paddingRight="@dimen/info_linear_padding">
+
+                    <TextView
+                        android:id="@+id/InfoTab_Network"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/info_sectiontitle_paddingbottom"
+                        android:text="@string/network_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/infoSectionTitle"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/divider_height"
+                        android:background="@drawable/divider"
+                         />
+
+                    <TextView
+                        android:id="@+id/InfoTab_Network_Data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:paddingTop="@dimen/info_sectiondata_paddingtop"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/infoSectionData"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/info_cardview_margin"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/info_linear_padding"
+                    android:paddingRight="@dimen/info_linear_padding">
+
+                    <TextView
+                        android:id="@+id/InfoTab_Device"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/info_sectiontitle_paddingbottom"
+                        android:text="@string/device_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/infoSectionTitle"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/divider_height"
+                        android:background="@drawable/divider"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/InfoTab_Device_Data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/info_sectiondata_paddingtop"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/infoSectionData"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/info_cardview_margin"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/info_linear_padding"
+                    android:paddingRight="@dimen/info_linear_padding">
+
+                    <TextView
+                        android:id="@+id/InfoTab_Model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/info_sectiontitle_paddingbottom"
+                        android:text="@string/model_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/infoSectionTitle"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/divider_height"
+                        android:background="@drawable/divider"
+                         />
+
+                    <TextView
+                        android:id="@+id/InfoTab_Model_Data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/info_sectiondata_paddingtop"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/infoSectionData"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <!-- Auto-generated Widgets BEGIN -->
+
+<ScrollView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	android:layout_height="wrap_content">
+	<TextView
+	android:id="@+id/DataDisplayLabel1"
+	
+	android:layout_gravity="left"
+	android:layout_weight="1"
+	android:ellipsize="marquee"
+	android:textStyle="bold"
+	android:text="Latitude: "
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	/>
+<TextView
+	android:id="@+id/DataDisplay1"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	
+	android:layout_weight="1"
+	android:layout_gravity="right"
+	android:textColor="@android:color/black"
+	/>
+	</LinearLayout>
+	<View
+	android:layout_width="match_parent"
+	android:background="@drawable/divider"
+	android:layout_height="@dimen/divider_height"/>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	android:layout_height="wrap_content">
+	<TextView
+	android:id="@+id/DataDisplayLabel2"
+	
+	android:layout_gravity="left"
+	android:layout_weight="1"
+	android:ellipsize="marquee"
+	android:textStyle="bold"
+	android:text="Longitude: "
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	/>
+<TextView
+	android:id="@+id/DataDisplay2"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	
+	android:layout_weight="1"
+	android:layout_gravity="right"
+	android:textColor="@android:color/black"
+	/>
+	</LinearLayout>
+	<View
+	android:layout_width="match_parent"
+	android:background="@drawable/divider"
+	android:layout_height="@dimen/divider_height"/>
+</LinearLayout>
+</ScrollView>
+<!-- Auto-generated Widgets END -->
+
+
+
+
+
+
+
+</FrameLayout>

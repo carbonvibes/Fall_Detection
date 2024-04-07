@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 The MathWorks, Inc. -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".LogFragment">   
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/thingspeaklogtitle"
+        android:text="@string/thingspeak_title"
+        android:textStyle="bold"
+        android:background="@color/titleBackground"/>  
+    
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:scrollbars="vertical"
+        android:id="@+id/thingspeaklog"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcplogtitle"
+        android:textStyle="bold"
+        android:text="@string/tcp_title"
+        android:background="@color/titleBackground"/>
+    
+    <TextView
+        android:layout_weight="1"
+        android:hint="@string/empty_hint"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:scrollbars="vertical"
+        android:id="@+id/tcplog"/>
+
+    <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/mqttlogtitle"
+          android:visibility="gone"
+          android:textStyle="bold"
+          android:text="@string/mqtt_title"
+          android:background="@color/titleBackground"/>
+
+    <TextView
+          android:layout_weight="1"
+          android:hint="@string/empty_hint"
+          android:layout_width="match_parent"
+          android:layout_height="0px"
+          android:visibility="gone"
+          android:scrollbars="vertical"
+          android:id="@+id/mqttlog"/>
+    <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/httplogtitle"
+          android:textStyle="bold"
+          android:text="@string/http_title"
+          android:visibility="gone"
+          android:background="@color/titleBackground"/>
+
+    <TextView
+          android:layout_weight="1"
+          android:hint="@string/empty_hint"
+          android:layout_width="match_parent"
+          android:layout_height="0px"
+          android:scrollbars="vertical"
+          android:visibility="gone"
+          android:id="@+id/httplog"/>
+</LinearLayout>

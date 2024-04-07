@@ -1,0 +1,67 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "timerStarted"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "Child:63:86-98"\
+    }\
+    ChartData {\
+      Name         "timerStarted_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "Child:63:86-98"\
+    }\
+    ChartData {\
+      Name         "danger"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "Child:63:115-121"\
+    }\
+    ChartData {\
+      Name         "freq"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2023a\toolbox\shared\coder\coder\lib\+coder\+internal\+time\CoderTimeAPI.m:5189-5193"\
+    }\
+    ChartData {\
+      Name         "freq_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2023a\toolbox\shared\coder\coder\lib\+coder\+internal\+time\CoderTimeAPI.m:5189-5193"\
+    }\
+    ChartData {\
+      Name         "savedTime"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2023a\toolbox\shared\coder\coder\lib\+coder\+internal\+time\+impl\timeKeeper.m:170-179"\
+    }\
+    ChartData {\
+      Name         "savedTime_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2023a\toolbox\shared\coder\coder\lib\+coder\+internal\+time\+impl\timeKeeper.m:170-179"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

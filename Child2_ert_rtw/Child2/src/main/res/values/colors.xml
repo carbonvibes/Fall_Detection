@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#16406F</color>
+    <color name="colorAccent">#029FCF</color>
+    <color name="titleBackground">#fafafa</color>
+    <color name="infoSectionTitle">#3D3D3D</color>
+    <color name="infoSectionData">#808080</color>
+    <color name="sliderprogressTint">#B9D4EE</color>
+</resources>
