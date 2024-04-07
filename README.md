@@ -8,6 +8,7 @@ We have devoloped an android app using MATLAB-Simulink platform that can detect 
 and fuzzy logic control.
 
 ## Team Members
-- Arjun Sekar
-- Raghavpravin K S
-- Sriram Srinivasan
+1. **_Arjun Sekar_**
+2. **_Raghavpravin KS_**
+3. **_Sriram Srinivasan_**
+
