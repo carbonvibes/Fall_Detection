@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.Parent-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.example.Parent-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.Parent-mergeDebugResources-41:/layout/auto_generated_widgets.xml",
+        "source": "com.example.Parent-main-44:/layout/auto_generated_widgets.xml"
+    },
+    {
+        "merged": "com.example.Parent-mergeDebugResources-41:/layout/fragment_log.xml",
+        "source": "com.example.Parent-main-44:/layout/fragment_log.xml"
+    },
+    {
+        "merged": "com.example.Parent-mergeDebugResources-41:/layout/fragment_app.xml",
+        "source": "com.example.Parent-main-44:/layout/fragment_app.xml"
+    },
+    {
+        "merged": "com.example.Parent-mergeDebugResources-41:/layout/fragment_info.xml",
+        "source": "com.example.Parent-main-44:/layout/fragment_info.xml"
+    }
+]

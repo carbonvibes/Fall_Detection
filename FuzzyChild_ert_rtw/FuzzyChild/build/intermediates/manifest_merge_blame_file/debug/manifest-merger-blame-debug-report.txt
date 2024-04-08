@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Copyright 2017-2023 The MathWorks, Inc. -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.example.FuzzyChild"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:2:5-73
+9        android:minSdkVersion="22"
+9-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:2:15-41
+10        android:targetSdkVersion="33" />
+10-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:2:42-71
+11
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:11:1-71
+12-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:11:18-69
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:11:71-145
+13-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:11:88-143
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:12:1-66
+14-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:12:18-64
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:13:1-62
+15-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:13:18-60
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:14:1-74
+16-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:14:18-72
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:15:1-76
+17-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:15:18-74
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:16:1-74
+18-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:16:18-72
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.FuzzyChild.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.FuzzyChild.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:3:5-10:19
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/ic_launcher"
+29-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:3:18-54
+30        android:label="@string/app_name"
+30-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:3:55-87
+31        android:requestLegacyExternalStorage="true"
+31-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:3:88-131
+32        android:theme="@style/MWAppTheme" >
+32-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:3:132-165
+33        <activity
+33-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:4:9-9:20
+34            android:name="com.example.FuzzyChild.FuzzyChild"
+34-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:4:76-101
+35            android:configChanges="orientation|screenSize"
+35-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:4:148-194
+36            android:exported="true"
+36-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:4:19-42
+37            android:label="@string/app_name"
+37-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:4:43-75
+38            android:theme="@style/MWAppTheme.NoActionBar" >
+38-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:4:102-147
+39            <intent-filter>
+39-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:5:13-8:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:6:17-68
+40-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:6:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:7:17-76
+42-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\FuzzyChild_ert_rtw\FuzzyChild\src\main\AndroidManifest.xml:7:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.example.FuzzyChild.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shesh\.gradle\caches\transforms-3\8c59a601db567b4cb6bd18434a8df3a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shesh\.gradle\caches\transforms-3\8c59a601db567b4cb6bd18434a8df3a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shesh\.gradle\caches\transforms-3\8c59a601db567b4cb6bd18434a8df3a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57
+58        <uses-library
+58-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+59            android:name="androidx.window.extensions"
+59-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+61        <uses-library
+61-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+62            android:name="androidx.window.sidecar"
+62-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+64    </application>
+65
+66</manifest>

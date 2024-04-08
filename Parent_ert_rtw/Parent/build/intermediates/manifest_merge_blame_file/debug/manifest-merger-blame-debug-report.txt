@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Copyright 2017-2023 The MathWorks, Inc. -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.example.Parent"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:2:5-73
+9        android:minSdkVersion="22"
+9-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:2:15-41
+10        android:targetSdkVersion="33" />
+10-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:2:42-71
+11
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:11:1-71
+12-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:11:18-69
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:11:71-145
+13-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:11:88-143
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:12:1-66
+14-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:12:18-64
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:13:1-62
+15-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:13:18-60
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:14:1-74
+16-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:14:18-72
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.Parent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.Parent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:3:5-10:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\Shesh\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:icon="@drawable/ic_launcher"
+27-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:3:18-54
+28        android:label="@string/app_name"
+28-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:3:55-87
+29        android:requestLegacyExternalStorage="true"
+29-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:3:88-131
+30        android:theme="@style/MWAppTheme" >
+30-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:3:132-165
+31        <activity
+31-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:4:9-9:20
+32            android:name="com.example.Parent.Parent"
+32-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:4:76-97
+33            android:configChanges="orientation|screenSize"
+33-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:4:144-190
+34            android:exported="true"
+34-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:4:19-42
+35            android:label="@string/app_name"
+35-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:4:43-75
+36            android:theme="@style/MWAppTheme.NoActionBar" >
+36-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:4:98-143
+37            <intent-filter>
+37-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:5:13-8:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:6:17-68
+38-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:6:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:7:17-76
+40-->C:\Users\Shesh\Documents\MATLAB\snake\Fall_Detection\Parent_ert_rtw\Parent\src\main\AndroidManifest.xml:7:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.Parent.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shesh\.gradle\caches\transforms-3\798c3c0d56d8a0030f37c4437699c0b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shesh\.gradle\caches\transforms-3\8c59a601db567b4cb6bd18434a8df3a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shesh\.gradle\caches\transforms-3\8c59a601db567b4cb6bd18434a8df3a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shesh\.gradle\caches\transforms-3\8c59a601db567b4cb6bd18434a8df3a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55
+56        <uses-library
+56-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+57            android:name="androidx.window.extensions"
+57-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+59        <uses-library
+59-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+60            android:name="androidx.window.sidecar"
+60-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0] C:\Users\Shesh\.gradle\caches\transforms-3\7c84e100c751398008e26e8b86ef591f\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+62    </application>
+63
+64</manifest>

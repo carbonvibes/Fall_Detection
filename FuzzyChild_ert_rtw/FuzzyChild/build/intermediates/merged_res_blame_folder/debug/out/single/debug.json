@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_selected_dot.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\selected_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_app_active.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\app_active.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_expand.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\expand.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_ic_toggleswitchblock.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\ic_toggleswitchblock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\raw_beep.wav.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\raw\\beep.wav"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_mwbutton_text.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\mwbutton_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_bottom_nav.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_toggle_switch_button.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\toggle_switch_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\layout_auto_generated_widgets.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\layout\\auto_generated_widgets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_ic_rockerswitchblock.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\ic_rockerswitchblock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_shrink.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\shrink.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_info_active.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\info_active.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\layout_fragment_log.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\layout\\fragment_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_button_nonchecked.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\button_nonchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_background.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\layout_fragment_app.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\layout_fragment_info.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_dashboard_active.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\dashboard_active.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_mwbutton_background.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\mwbutton_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_button_checked.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\button_checked.xml"
+    },
+    {
+        "merged": "com.example.FuzzyChild-merged_res-42:/layout_auto_generated_widgets.xml.flat",
+        "source": "com.example.FuzzyChild-main-44:/layout/auto_generated_widgets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_divider.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_log_active.png.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\log_active.png"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_rocker_switch_button.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\rocker_switch_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_default_dot.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\default_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-merged_res-42:\\drawable_tab_selector.xml.flat",
+        "source": "C:\\Users\\Shesh\\.gradle\\daemon\\7.5\\com.example.FuzzyChild-main-44:\\drawable\\tab_selector.xml"
+    }
+]
